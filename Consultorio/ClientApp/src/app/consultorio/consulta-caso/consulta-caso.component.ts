@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Caso } from '../models/caso';
+import { CasoService } from 'src/app/services/caso.service';
 
 @Component({
   selector: 'app-consulta-caso',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConsultaCasoComponent implements OnInit {
 
-  constructor() { }
+  casos:Caso[];
+  constructor(private casoService: CasoService) { }
 
   ngOnInit(): void {
+    //this.casoService.get().subscribe(result)
   }
 
 }

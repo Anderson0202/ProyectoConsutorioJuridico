@@ -7,25 +7,34 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
+
 import { RegistroCasoComponent } from './consultorio/registro-caso/registro-caso.component';
 import { ConsultaCasoComponent } from './consultorio/consulta-caso/consulta-caso.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RegistroPracticanteComponent } from './consultorio/registro-practicante/registro-practicante.component';
 import { RegistroUsuarioComponent } from './consultorio/registro-usuario/registro-usuario.component';
+import { InicioSesionComponent } from './consultorio/inicio-sesion/inicio-sesion.component';
+import { RegistroDocenteComponent } from './consultorio/registro-docente/registro-docente.component';
+import { AgendaComponent } from './consultorio/agenda/agenda.component';
+import { ConsultaAudienciaEstudianteComponent } from './consultorio/consulta-audiencia-estudiante/consulta-audiencia-estudiante.component';
+import { FiltroAgendaPipe } from './pipe/filtro-agenda.pipe';
+import { FiltroUsuarioPipe } from './pipe/filtro-usuario.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    CounterComponent,
-    FetchDataComponent,
     RegistroCasoComponent,
     ConsultaCasoComponent,
     RegistroPracticanteComponent,
-    RegistroUsuarioComponent
+    RegistroUsuarioComponent,
+    InicioSesionComponent,
+    RegistroDocenteComponent,
+    AgendaComponent,
+    ConsultaAudienciaEstudianteComponent,
+    FiltroAgendaPipe,
+    FiltroUsuarioPipe
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -33,8 +42,6 @@ import { RegistroUsuarioComponent } from './consultorio/registro-usuario/registr
     FormsModule,
     RouterModule.forRoot([
     { path: '', component: HomeComponent, pathMatch: 'full' },
-    { path: 'counter', component: CounterComponent },
-    { path: 'fetch-data', component: FetchDataComponent },
 ], { relativeLinkResolution: 'legacy' }),
     AppRoutingModule
   ],
