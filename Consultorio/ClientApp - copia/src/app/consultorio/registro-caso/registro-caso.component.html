@@ -5,7 +5,7 @@
       <div class="well well-sm">
         <form class="form-horizontal" method="post">
           <fieldset>
-            <legend class="text-center header">Consultar Usuarios</legend>
+            <legend class="text-center header">Registro de Caso</legend>
 
             <div class="form-group">
               <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
@@ -20,29 +20,17 @@
                 <thead>
                 <tr>
                   <th scope="col">N°</th>
-                  <th scope="col">Identificacion</th>
-                  <th scope="col">Nombres</th>
-                  <th scope="col">Apellidos</th>
-                  <th scope="col">Edada</th>
-                  <th scope="col">Celular</th>
+                  <th scope="col">Cedula</th>
+                  <th scope="col">Nombre</th>
                   <th scope="col">Correo</th>
-                  <th scope="col">Edit</th>
-                  <th scope="col">Delete</th>
-                  
                 </tr>
                 </thead>
                 <tbody>
-                <tr *ngFor="let persona of personas, let item = index">
-                  <th scope="row">{{ item +1 }}</th>
-                  <td>{{persona.idPersona}}</td>
-                  <td>{{persona.nombres}}</td>
-                  <td>{{persona.apellidos}}</td>
-                  <td>{{persona.edad}}</td>
-                  <td>{{persona.celular}}</td>
-                  <td>{{persona.correo}}</td>
-                  <td><a href="">Editar</a></td>
-                  <td><a href="">Eliminar</a></td>
-                
+                <tr>
+                  <th scope="row">1</th>
+                  <td>101</td>
+                  <td>Anderson Orozco</td>
+                  <td>aorozcom@unicesar.edu.co</td>
                 </tr>
                 </tbody>
               </table>
@@ -51,7 +39,7 @@
 
             <div class="form-group">
               <div class="col-md-12 text-center">
-                <button type="submit" class="btn btn-primary btn-lg">Consultar Usuario</button>
+                <button type="submit" class="btn btn-primary btn-lg">REGISTRAR CASO</button>
               </div>
             </div>
 

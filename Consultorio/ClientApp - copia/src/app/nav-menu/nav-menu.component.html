@@ -37,11 +37,7 @@
             <a class="nav-link text-dark" [routerLink]="['/registroUsuario']"
             >Usuario</a>
           </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/consultaUsuarios']"
-              >Consultar Usuarios</a
-            >
-          </li>
+
           <li class="nav-item" [routerLinkActive]="['link-active']">
             <a class="nav-link text-dark" [routerLink]="['/registroEstudiante']"
               >Practicante</a
@@ -71,7 +67,11 @@
               >Audiencias Estudiante</a
             >
           </li>
-          
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark" [routerLink]="['/consultaUsuarios']"
+              >Consultar Usuarios</a
+            >
+          </li>
 
           <div class="btn-group">
             <button type="button" class="btn btn-default dropdown-toggle"
