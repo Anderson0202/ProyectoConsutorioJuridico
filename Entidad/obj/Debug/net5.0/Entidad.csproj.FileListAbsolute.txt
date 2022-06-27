@@ -22,3 +22,15 @@ F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Entidad\obj\Debug\net
 F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Entidad\obj\Debug\net5.0\Entidad.dll
 F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Entidad\obj\Debug\net5.0\ref\Entidad.dll
 F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Entidad\obj\Debug\net5.0\Entidad.pdb
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\bin\Debug\net5.0\Entidad.deps.json
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\bin\Debug\net5.0\Entidad.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\bin\Debug\net5.0\ref\Entidad.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\bin\Debug\net5.0\Entidad.pdb
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\obj\Debug\net5.0\Entidad.csproj.AssemblyReference.cache
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\obj\Debug\net5.0\Entidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\obj\Debug\net5.0\Entidad.AssemblyInfoInputs.cache
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\obj\Debug\net5.0\Entidad.AssemblyInfo.cs
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\obj\Debug\net5.0\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\obj\Debug\net5.0\Entidad.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\obj\Debug\net5.0\ref\Entidad.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Entidad\obj\Debug\net5.0\Entidad.pdb

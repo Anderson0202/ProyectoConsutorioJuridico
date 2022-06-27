@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Datos\\Datos.csproj": {}
+    "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Datos\\Datos.csproj": {}
   },
   "projects": {
-    "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Datos\\Datos.csproj": {
+    "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Datos\\Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Datos\\Datos.csproj",
+        "projectUniqueName": "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Datos\\Datos.csproj",
-        "packagesPath": "C:\\Users\\eva_01\\.nuget\\packages\\",
-        "outputPath": "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Datos\\obj\\",
+        "projectPath": "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Datos\\Datos.csproj",
+        "packagesPath": "C:\\Users\\caden\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eva_01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\caden\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Entidad\\Entidad.csproj": {
-                "projectPath": "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Entidad\\Entidad.csproj"
+              "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Entidad\\Entidad.csproj"
               }
             }
           }
@@ -64,28 +62,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Entidad\\Entidad.csproj": {
+    "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Entidad\\Entidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Entidad\\Entidad.csproj",
+        "projectUniqueName": "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Entidad\\Entidad.csproj",
         "projectName": "Entidad",
-        "projectPath": "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Entidad\\Entidad.csproj",
-        "packagesPath": "C:\\Users\\eva_01\\.nuget\\packages\\",
-        "outputPath": "F:\\Descargas\\Programas\\Programacion Web\\ConsutorioJuridico\\Entidad\\obj\\",
+        "projectPath": "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Entidad\\Entidad.csproj",
+        "packagesPath": "C:\\Users\\caden\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caden\\OneDrive\\Documentos\\GitHub\\ProyectoConsutorioJuridico\\Entidad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eva_01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\caden\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -118,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

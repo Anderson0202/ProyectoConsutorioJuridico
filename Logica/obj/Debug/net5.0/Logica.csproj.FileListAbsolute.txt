@@ -32,3 +32,20 @@ F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Logica\obj\Debug\net5
 F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Logica\obj\Debug\net5.0\Logica.dll
 F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Logica\obj\Debug\net5.0\ref\Logica.dll
 F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Logica\obj\Debug\net5.0\Logica.pdb
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\bin\Debug\net5.0\Logica.deps.json
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\bin\Debug\net5.0\Logica.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\bin\Debug\net5.0\ref\Logica.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\bin\Debug\net5.0\Logica.pdb
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\bin\Debug\net5.0\Datos.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\bin\Debug\net5.0\Entidad.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\bin\Debug\net5.0\Entidad.pdb
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\bin\Debug\net5.0\Datos.pdb
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\obj\Debug\net5.0\Logica.csproj.AssemblyReference.cache
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\obj\Debug\net5.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\obj\Debug\net5.0\Logica.AssemblyInfoInputs.cache
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\obj\Debug\net5.0\Logica.AssemblyInfo.cs
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\obj\Debug\net5.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\obj\Debug\net5.0\Logica.csproj.CopyComplete
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\obj\Debug\net5.0\Logica.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\obj\Debug\net5.0\ref\Logica.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Logica\obj\Debug\net5.0\Logica.pdb

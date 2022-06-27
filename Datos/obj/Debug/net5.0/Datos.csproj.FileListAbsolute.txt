@@ -28,3 +28,18 @@ F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Datos\obj\Debug\net5.
 F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Datos\obj\Debug\net5.0\Datos.dll
 F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Datos\obj\Debug\net5.0\ref\Datos.dll
 F:\Descargas\Programas\Programacion Web\ConsutorioJuridico\Datos\obj\Debug\net5.0\Datos.pdb
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\bin\Debug\net5.0\Datos.deps.json
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\bin\Debug\net5.0\Datos.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\bin\Debug\net5.0\ref\Datos.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\bin\Debug\net5.0\Datos.pdb
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\bin\Debug\net5.0\Entidad.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\bin\Debug\net5.0\Entidad.pdb
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\obj\Debug\net5.0\Datos.csproj.AssemblyReference.cache
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\obj\Debug\net5.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\obj\Debug\net5.0\Datos.AssemblyInfoInputs.cache
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\obj\Debug\net5.0\Datos.AssemblyInfo.cs
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\obj\Debug\net5.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\obj\Debug\net5.0\Datos.csproj.CopyComplete
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\obj\Debug\net5.0\Datos.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\obj\Debug\net5.0\ref\Datos.dll
+C:\Users\caden\OneDrive\Documentos\GitHub\ProyectoConsutorioJuridico\Datos\obj\Debug\net5.0\Datos.pdb
