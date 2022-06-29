@@ -11,7 +11,7 @@
               <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
               <div class="col-md-8">
                 <label class="form-label" >Ingrese numero de documento de usuario</label>
-                <input id="numeroDocumento" name="number" type="text" placeholder="Numero de documento" class="form-control">
+                <input id="numeroDocumento" #numeroDeDocumento name="numeroDocumento" type="text" placeholder="Numero de documento" class="form-control">
               </div>
             </div>
 
@@ -40,8 +40,10 @@
                   <td>{{persona.edad}}</td>
                   <td>{{persona.celular}}</td>
                   <td>{{persona.correo}}</td>
-                  <td><a href="">Editar</a></td>
-                  <td><a href="">Eliminar</a></td>
+                  <td> <button class="btn btn-link"title="update persona"
+                    (click)="getPersona(persona.idPersona)">Editar</button></td>
+                  <td><button class="btn btn-danger" title="delete persona"
+                    (click)="deletePersonas(persona.idPersona) ">Eliminar</button></td>
                 
                 </tr>
                 </tbody>
@@ -51,7 +53,11 @@
 
             <div class="form-group">
               <div class="col-md-12 text-center">
-                <button type="submit" class="btn btn-primary btn-lg">Consultar Usuario</button>
+
+                <button type="submit" class="btn btn-primary btn-lg" (click)="getPersona(numeroDeDocumento.value)">Consultar Usuario</button>
+                
+                 
+              
               </div>
             </div>
 

@@ -6,13 +6,30 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class UsuarioService {
 
+export class UsuarioService {
+  private urlBase = 'https://localhost:44380/api/Persona';
   constructor( private http: HttpClient) { }
 
-  private urlBase = 'https://localhost:44380/api/Persona';
+  
 
   getAllPersonas(): Observable<Persona[]> {
     return this.http.get<Persona[]>(this.urlBase)
   }
+  getPersonas<Data>(persona:Persona|number): Observable<Persona> {
+  //  const idPersona = typeof persona ==='number' ? persona : persona.idPersona;
+  console.log(persona)
+    const url = `${this.urlBase}/${persona}`;
+    return this.http.get<Persona>(url)
+  }
+  deletePersonas(persona:Persona|number): Observable<Persona> {
+    const idPersona = typeof persona ==='number' ? persona : persona.idPersona;
+    const url = `${this.urlBase}/${idPersona}`;
+    return this.http.delete<Persona>(url )
+  }
+
+  addPersona(persona: Persona): Observable<Persona> {
+    return this.http.post<Persona>(this.urlBase, persona)
+  }
+
 }
