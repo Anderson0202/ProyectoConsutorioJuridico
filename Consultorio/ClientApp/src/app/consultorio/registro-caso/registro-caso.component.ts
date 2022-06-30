@@ -50,7 +50,7 @@ export class RegistroCasoComponent implements OnInit {
       this.showData();
       console.log(this.perso);
       
-        window.alert("Datos consultados correctamente")
+     this.ocultarConsulta()
           
     })
     
@@ -59,6 +59,7 @@ export class RegistroCasoComponent implements OnInit {
     this.usuarioService.deletePersonas(persona).subscribe(result => {
       this.persona = result;
       console.log('eliminado')
+      window.alert("Usuario borrado correctamente")
       window.location.reload();
       
     })
@@ -76,6 +77,7 @@ export class RegistroCasoComponent implements OnInit {
         
         window.alert("Datos modificados correctamente")
         window.location.reload()
+        this.hideData()
       });
       console.log('modificando')
   }
