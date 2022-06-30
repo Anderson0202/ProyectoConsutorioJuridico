@@ -27,9 +27,11 @@ export class UsuarioService {
     const url = `${this.urlBase}/${idPersona}`;
     return this.http.delete<Persona>(url )
   }
-
   addPersona(persona: Persona): Observable<Persona> {
     return this.http.post<Persona>(this.urlBase, persona)
+  }
+  updatePersona(persona: Persona): Observable<any> {
+    return this.http.put(this.urlBase, persona)
   }
 
 }

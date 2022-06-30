@@ -17,8 +17,13 @@ export class RegistroCasoComponent implements OnInit {
    }
    personas:Persona[];
    persona:Persona;
+   perso: Persona = null;
+   per: Persona;
    p: Persona;
+
    item:number;
+   element = false;
+   consulta = false;
   ngOnInit(): void {
     this.usuarioService.getAllPersonas().subscribe(result => {
             this.personas = result;
@@ -30,8 +35,23 @@ export class RegistroCasoComponent implements OnInit {
   getPersona(persona:Persona|number): any {
 
     this.usuarioService.getPersonas(persona).subscribe(result => {
-      this.p = result;
-      console.log(this.p);
+      this.per = result;
+      console.log(this.per);
+      
+        window.alert("Datos consultados correctamente")
+          
+    })
+    
+  }
+  getPersonaMod(persona:Persona): any {
+
+    this.usuarioService.getPersonas(persona.idPersona).subscribe(result => {
+      this.perso = result;
+      this.showData();
+      console.log(this.perso);
+      
+        window.alert("Datos consultados correctamente")
+          
     })
     
   }
@@ -42,9 +62,37 @@ export class RegistroCasoComponent implements OnInit {
       window.location.reload();
       
     })
-
-    
   }
 
+  save(idPersona: number,nombres:string,apellidos:string,edad:number,celular:string,correo:string ): void {
+    this.perso.idPersona = idPersona;
+    this.perso.nombres = nombres.trim();
+    this.perso.apellidos = apellidos.trim();
+    this.perso.edad = edad;
+    this.perso.celular = celular.trim();
+    this.perso.correo = correo.trim();
+    this.usuarioService.updatePersona(this.perso)
+      .subscribe(persona => {
+        
+        window.alert("Datos modificados correctamente")
+        window.location.reload()
+      });
+      console.log('modificando')
+  }
+
+  showData() {
+    return (this.element = true);
+  }
+  hideData() {
+    return (this.element = false);
+  }
+
+  verConsulta() {
+    return (this.consulta = true);
+  }
+  ocultarConsulta() {
+    return (this.consulta = false);
+  }
+  
   
 }
